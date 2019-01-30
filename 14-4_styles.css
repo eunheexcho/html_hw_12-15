@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.col {
+  float:left;
+}
+
+.navbar {
+  background-color: black;
+  height: 60px;
+  padding: 0 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar h1 {
+  padding-left: 30px;
+  color: white;
+  font-size: 50px;
+}
+
+.main {
+  background-image: url("../14-4_images/main_img.jpg");
+  width: 100%;
+  height: 320px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.text {
+  width: 100%;
+  height: 350px;
+  background-color: white;
+}
+
+.text h2 {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  color: #4A4A4A;
+  margin-bottom: 10px;
+}
+
+.text h1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: #1B1B1B;
+  margin-bottom: 30px;
+}
+
+.text p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  color: #7A7A7A;
+}
+
+.text .info-box {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.text .info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image_1 {
+  background-image: url("../14-4_images/img1.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 385px;
+}
+
+.image_2 {
+  background-image: url("../14-4_images/img2.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.image_2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+  padding: 9px 40px;
+  vertical-align: middle;
+}
+
+.image_3 {
+  background-image: url("../14-4_images/img3.jpg");
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+    .main {
+        width: 100%;
+        height: 562px;
+    }
+    .text {
+        width: 100%;
+        height: 282px;
+    }
+    .image_1 {
+        width: 50%;
+        height: 360px;
+    }
+    .image_2 {
+        width: 50%;
+        height: 180px;
+    }
+    .image_3 {
+        width: 50%;
+        height: 180px;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar {
+        width: 100%;
+        height: 60px;
+    }
+
+    .main {
+        width: 50%;
+        height: 700px;
+    }
+
+    .text {
+        width: 50%;
+        height: 350px;
+    }
+
+    .image_1 {
+        width: 25%;
+        height: 350px;
+    }
+
+    .image_2 {
+        width: 25%;
+        height: 175px;
+    }
+
+    .image_3 {
+        width: 25%;
+        height: 175px;
+    }
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar {
+    padding: 0 20px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.50);
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo img {
+    display: inline-block;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 60px;
+}
+
+.main-img {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+
+}
+
+.main-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.main-title h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #545454;
+    font-weight: bold;
+}
+
+.item p {
+    font-size: 16px;
+    color: #545454;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item img {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+}
+
+.item {
+    float: left;
+}
+
+.products {
+    text-align: center;
+}
+
+.product-line {
+    float: left;
+    text-align: center;
+}
+
+.clearfix {
+    clear:left;
+}
+
+.footer {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.footer img {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
